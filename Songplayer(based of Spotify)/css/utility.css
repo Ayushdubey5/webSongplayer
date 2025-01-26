@@ -1,0 +1,55 @@
+.border{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.item-centre{
+    align-items: center;
+}
+.bg-black{
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounder{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Styling the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Dark background for the track */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555555; /* Darker color for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888888; /* Slightly lighter color when hovering */
+  }
+  
